@@ -59,8 +59,9 @@ Basic steps are following:
    - [Cloud IaaS: Azure](pages/platform_specific_architecture/cloud_iaas_azure.md#platform-specific-architecture-for-azure-microsoft-azure)
    - Cloud IaaS: IBM Cloud
    - Cloud IaaS: Google
-   - On-premise: VMware
-   - On-premise: IBM Power
+   - On-premises: VMware
+   - On-premises: IBM Power
+   - [On-premises: Nutanix](/pages/platform_specific_architecture/on_prem_nutanix.md#platform-specific-architecture-for-nutanix)
 5. Operational Procedures
    - High Availability (HA) Operation
    - Disaster Recovery (DR) Operation
