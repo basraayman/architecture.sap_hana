@@ -5,15 +5,14 @@ Description
 <!-- TOC -->
 
 - [Platform Specific Architecture for Nutanix](#platform-specific-architecture-for-nutanix)
-  - [Nutanix: Overall Architecture](#nutanix-cloud-overall-architecture)
-  - [Nutanix: HCI Architecture](#nutanix-cloud-hci-architecture)
-  - [Nutanix: Supported Platforms](#nutanix-cloud-supported-platforms)
-    - [Nutanix: Storage Configurations](#nutanix-cloud-storage-configurations)
-  - [Nutanix: Virtual Hostname/IP](#nutanix-cloud-virtual-hostnameip)
-  - [Nutanix: High Availability](#nutanix-cloud-high-availability)
-  - [Nutanix: Disaster Recovery](#nutanix-cloud-disaster-recovery)
-  - [Nutanix: Data Tiering Options](#nutanix-cloud-data-tiering-options)
-  - [Nutanix: XSA](#nutanix-cloud-xsa)
+  - [Nutanix: Overall Architecture](#nutanix-overall-architecture)
+  - [Nutanix: HCI Architecture](#nutanix-hci-architecture)
+  - [Nutanix: Supported Platforms](#nutanix-supported-platforms)
+    - [Nutanix: Storage Configurations](#nutanix-storage-configurations)
+  - [Nutanix: Virtual Hostname/IP](#nutanix-virtual-hostnameip)
+  - [Nutanix: High Availability](#nutanix-high-availability)
+  - [Nutanix: Disaster Recovery](#nutanix-disaster-recovery)
+  - [Nutanix: Data Tiering Options](#nutanix-data-tiering-options)
 
 <!-- /TOC -->
 
@@ -53,17 +52,12 @@ You can find the Nutanix best practice guides for SAP HANA on AHV, SAP HANA on v
 
 ## Nutanix: Supported Platforms
 
-Link to generic content: [Module: Basic Architecture](../generic_architecture/module_basic_architecture.md#module-basic-architecture)
+You can find all supported hardware platforms to run the Nutanix enterprise cloud OS stack via the SAP HANA hardware directory, under the "Certified HCI SOlutions" section: https://www.sap.com/dmc/exp/2014-09-02-hana-hardware/enEN/#/solutions?filters=v:deCertified;hci;v:174
 
-- supported instance types
-- description of single node implementation (storage) + picture
-- description of scale-out implementations (storage) + picture
-- are subnets are stretched across AZs?
-- links to Nutanix documentation
 
 ### Nutanix: Storage Configurations
 
-- visualization of storage for Nutanix
+- Storage for Nutanix
 
 ## Nutanix: Virtual Hostname/IP
 
@@ -99,9 +93,3 @@ Link to generic content: [Module: Data Tiering Options](../generic_architecture/
 - what is supported what is not (matrix)
 - links to Nutanix documentation
 - modified pictures of storage setup (if required)
-
-## Nutanix: XSA
-
-Link to generic content: [Module: SAP XSA](../generic_architecture/module_xsa.md#module-sap-xsa)
-
-- I think there is nothing infrastructure specific
